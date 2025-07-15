@@ -18,4 +18,9 @@ def main():
         print(f"{meters} m = {meters_to_kilometers(meters)} km")
     elif choice == '2':
         celsius = float(input("Enter °C: "))
-        print(f"{celsius}°C = {celsius_
+        print(f"{celsius}°C = {celsius_to_fahrenheit(celsius)}°F")
+    else:
+        print("Invalid choice. Please enter 1 or 2.")
+
+if _name_ == "_main_":
+    main()
